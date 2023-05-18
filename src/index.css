@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --main-color: #025464;
+  --second-color: #E57C23;
+  --third-color: #E8AA42;
+  --fourth-color: #F8F1F1;
+  --font-color: #fff;
+}

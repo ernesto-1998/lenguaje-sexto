@@ -1,0 +1,17 @@
+header {
+    /* padding: 16px; */
+    display: flex;
+    justify-content: center;
+}
+
+.title-container {
+    font-family: 'Pacifico', cursive;
+    color: var(--font-color);
+    border-radius: 25px;
+    background-color: var(--main-color);
+    padding: 25px 100px;
+}
+
+.title-container>h1 {
+    text-align: center;
+}
