@@ -9,8 +9,8 @@ export function Header() {
             </div>
             <nav>
                 <ul className="nav-menu">
-                    { unidades.map( unidad => {
-                        return <li key={unidad.length} className="nav-li">{ unidad }</li>
+                    { unidades.map( (unidad, index) => {
+                        return <li key={index} className="nav-li">{ unidad }</li>
                     }) }
                 </ul>
             </nav>

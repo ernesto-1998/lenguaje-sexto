@@ -3,6 +3,9 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 400px;
+    background-image: url("../assets/images/education1.jpg");
+    position: relative;
 }
 
 .title-container {
@@ -13,7 +16,7 @@ header {
     padding: 25px 100px;
 }
 
-.title-container>h1 {
+.title-container > h1 {
     text-align: center;
 }
 
@@ -23,6 +26,9 @@ nav {
     background-color: var(--second-color);
     font-family: 'Mogra', cursive;
     color: var(--font-color);
+    overflow-x: auto;
+    position: absolute;
+    bottom: 0;
 }
 
 .nav-menu {
