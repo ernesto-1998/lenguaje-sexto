@@ -1,6 +1,7 @@
 import "./header.css"
 
 export function Header() {
+    const unidades = ["Unidad 1", "Unidad 2", "Unidad 3", "Unidad 4", "Unidad 5", "Unidad 6", "Unidad 7", "Unidad 8"];
     return (
         <header>
             <div className="title-container">
@@ -8,7 +9,9 @@ export function Header() {
             </div>
             <nav>
                 <ul className="nav-menu">
-                    
+                    { unidades.map( unidad => {
+                        return <li key={unidad.length} className="nav-li">{ unidad }</li>
+                    }) }
                 </ul>
             </nav>
         </header>
