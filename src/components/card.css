@@ -1,5 +1,6 @@
 .card {
     width: 100%;
+    transition: .5s;
 }
 
 .card > img {
@@ -20,4 +21,8 @@
     border-radius: 16px;
     background-color: var(--main-color);
     padding: 10px 20px;
+}
+
+.card:hover {
+    transform: translateY(-7px);
 }
