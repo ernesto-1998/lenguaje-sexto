@@ -1,5 +1,4 @@
 header {
-    /* padding: 16px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,25 +7,11 @@ header {
     position: relative;
 }
 
-.title-container {
-    font-family: 'Pacifico', cursive;
-    color: var(--font-color);
-    border-radius: 25px;
-    background-color: var(--main-color);
-    padding: 25px 100px;
-}
-
-.title-container > h1 {
-    text-align: center;
-}
-
 nav {
     width: 100%;
-    /* height: 50px; */
     background-color: var(--second-color);
     font-family: 'Mogra', cursive;
     color: var(--font-color);
-    overflow-x: auto;
     position: absolute;
     bottom: 0;
 }
@@ -35,7 +20,7 @@ nav {
     display: flex;
     justify-content: center;
     list-style: none;
-    /* padding: 15px 0; */
+    overflow-x: auto;
 }
 
 .nav-li {
@@ -47,4 +32,10 @@ nav {
 .nav-li:hover {
     cursor: pointer;
     background-color: var(--third-color);
+}
+
+@media only screen and (max-width: 420px) {
+    .nav-menu {
+        justify-content: start;
+    }
 }

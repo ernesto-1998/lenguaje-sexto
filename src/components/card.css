@@ -1,0 +1,23 @@
+.card {
+    width: 100%;
+}
+
+.card > img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.card-text {
+    color: var(--font-color);
+    font-family: 'Mogra', cursive;
+    border-radius: 16px;
+    background-color: var(--main-color);
+    padding: 10px 20px;
+}

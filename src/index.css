@@ -12,3 +12,8 @@
   --fourth-color: #F8F1F1;
   --font-color: #fff;
 }
+
+a {
+  list-style: none;
+  text-decoration: none;
+}

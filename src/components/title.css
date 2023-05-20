@@ -1,0 +1,18 @@
+.title-content{
+    font-family: 'Pacifico', cursive;
+    color: var(--font-color);
+    border-radius: 25px;
+    background-color: var(--main-color);
+    padding: 25px 100px;
+}
+
+.title-content > h1 {
+    text-align: center;
+}
+
+@media only screen and (max-width: 420px) {
+    .title-content {
+        /* font-size: 10px; */
+        padding: 20px 50px;
+    }
+}
