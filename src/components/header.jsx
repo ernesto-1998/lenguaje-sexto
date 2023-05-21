@@ -1,7 +1,10 @@
-import "./header.css"
+import "./header.css";
 import { Title } from "./title";
+import { useContext } from "react";
+import { UnitContext } from "../contexts/UnitContext";
 
 export function Header() {
+    const { setContextUnit } = useContext(UnitContext);
     const unidades = ["Unidad 1", "Unidad 2", "Unidad 3", "Unidad 4", "Unidad 5", "Unidad 6", "Unidad 7", "Unidad 8"];
     return (
         <header>
@@ -9,10 +12,10 @@ export function Header() {
             <nav>
                 <ul className="nav-menu">
                     { unidades.map( (unidad, index) => {
-                        return <li key={index} className="nav-li">{ unidad }</li>
+                        return <li onClick={() => setContextUnit(index+1)} key={index} className="nav-li">{ unidad }</li>
                     }) }
                 </ul>
             </nav>
         </header>
-    )
+    );
 }

@@ -34,6 +34,10 @@ nav {
     background-color: var(--third-color);
 }
 
+.nav-li:focus {
+    background-color: var(--third-color);
+}
+
 @media only screen and (max-width: 420px) {
     .nav-menu {
         justify-content: start;
