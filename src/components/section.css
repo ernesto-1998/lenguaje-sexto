@@ -1,0 +1,21 @@
+.section-container {
+    padding-top: 25px;
+}
+
+.title-container {
+    width: 300px;
+}
+
+.cards-container {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+@media only screen and (max-width: 420px) {
+    .title-container {
+        display: flex;
+        justify-content: center;
+    }
+}
