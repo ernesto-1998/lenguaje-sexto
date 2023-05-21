@@ -2,15 +2,15 @@ import { Card } from "./card";
 import { Title } from "./title";
 import "./section.css";
 
-export function Section({ games, text }) {
+export function Section({ content, text }) {
     return (
         <section className="section-container">
             <div className="title-container">
                 <Title text={text} />
             </div>
             <div className="cards-container">
-                {games.map((game, index) => {
-                    return <Card key={index} content={game} />
+                {content.map((cont, index) => {
+                    return <Card key={index} content={cont} />
                 })}
             </div>
         </section>

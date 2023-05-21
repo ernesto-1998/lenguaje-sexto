@@ -2,6 +2,7 @@ import { useContext } from "react";
 import { UnitContext } from "../contexts/UnitContext";
 import { Section } from "../components/section"
 import { games1 } from "../utils/games";
+import { otros } from "../utils/otros";
 import "./home.css";
 
 export function Home() {
@@ -9,9 +10,9 @@ export function Home() {
     if(contextUnit === 1){
         return (
             <div className="body-container">
-                <Section games={ games1 } text="Juegos"/>
-                <Section games={ games1 } text="Vídeos"/>
-                <Section games={ games1 } text="Otros"/>
+                <Section content={ games1 } text="Juegos"/>
+                <Section content={ games1 } text="Vídeos"/>
+                <Section content={ otros } text="Otros"/>
             </div>
         );
     } else if(contextUnit > 1){
