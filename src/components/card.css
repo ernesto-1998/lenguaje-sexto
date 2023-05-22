@@ -19,7 +19,7 @@
     color: var(--font-color);
     font-family: 'Mogra', cursive;
     border-radius: 16px;
-    background-color: var(--main-color);
+    background-color: var(--second-color);
     padding: 10px 20px;
 }
 
