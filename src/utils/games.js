@@ -21,5 +21,10 @@ export const games2 = [
         img: "/games2/gameOrdenaMarcadores.png",
         title: "Ordena la palabra! Marcadores discursivos!",
         link: "https://wordwall.net/es/resource/57378256/ordena-la-palabra-marcadores-discursivos"
+    },
+    {
+        img: "/games2/sopaPalabrasV.png",
+        title: "Sopa de Letras! Palabras con vice, viz y vi",
+        link: "https://wordwall.net/es/resource/57378502/palabras-con-vice-viz-y-vi"
     }
 ]
