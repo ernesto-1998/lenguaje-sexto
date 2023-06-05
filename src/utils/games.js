@@ -15,3 +15,11 @@ export const games1 = [
         link: "https://wordwall.net/es/resource/56563779"
     },
 ];
+
+export const games2 = [
+    {
+        img: "/games2/gameOrdenaMarcadores.png",
+        title: "Ordena la palabra! Marcadores discursivos!",
+        link: "https://wordwall.net/es/resource/57378256/ordena-la-palabra-marcadores-discursivos"
+    }
+]

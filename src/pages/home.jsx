@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { UnitContext } from "../contexts/UnitContext";
 import { Section } from "../components/section"
-import { games1 } from "../utils/games";
+import { games1, games2 } from "../utils/games";
 import { movies1 } from "../utils/movies";
 import { otros1, otros2 } from "../utils/otros";
 import "./home.css";
@@ -20,6 +20,7 @@ export function Home() {
     else if(contextUnit === 2){
         return (
             <div className="body-container">
+                <Section content={ games2 } text="Juegos"/>
                 <Section content={ otros2 } text="Otros"/>
             </div>   
         );
