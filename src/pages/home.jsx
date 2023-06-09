@@ -3,7 +3,7 @@ import { UnitContext } from "../contexts/UnitContext";
 import { Section } from "../components/section"
 import { games1, games2 } from "../utils/games";
 import { movies1 } from "../utils/movies";
-import { otros1, otros2 } from "../utils/otros";
+import { otros1, otros2, otros3 } from "../utils/otros";
 import "./home.css";
 
 export function Home() {
@@ -25,7 +25,15 @@ export function Home() {
             </div>   
         );
     } 
-    else if (contextUnit > 1){
+    else if(contextUnit === 3){
+        return (
+            <div className="body-container">
+                {/* <Section content={ games2 } text="Juegos"/> */}
+                <Section content={ otros3 } text="Otros"/>
+            </div>   
+        );
+    } 
+    else if (contextUnit > 4){
         return (
             <h1 align="center">Esta unidad aun no está disponible! :(</h1>
         );

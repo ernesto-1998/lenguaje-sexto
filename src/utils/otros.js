@@ -13,3 +13,11 @@ export const otros2 = [
         link: "https://drive.google.com/file/d/1tVu5EGv5G3t8KSEEIJi8jHfWdl9l35-k/view?usp=drive_link"
     }
 ]
+
+export const otros3 = [
+    {
+        img: "/otros3/actividadHaiku.png",
+        title: "Actividad Haiku de Primavera!",
+        link: "https://drive.google.com/file/d/1Kf02S-6ef0TF1wxksO4q_z2OVQvzPQ8x/view?usp=drive_link"        
+    }
+]
