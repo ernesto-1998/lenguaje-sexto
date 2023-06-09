@@ -33,7 +33,7 @@ export function Home() {
             </div>   
         );
     } 
-    else if (contextUnit > 4){
+    else if (contextUnit >= 4){
         return (
             <h1 align="center">Esta unidad aun no está disponible! :(</h1>
         );
