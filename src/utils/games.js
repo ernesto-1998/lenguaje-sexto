@@ -27,4 +27,12 @@ export const games2 = [
         title: "Sopa de Letras! Palabras con vice, viz y vi",
         link: "https://wordwall.net/es/resource/57378502"
     }
+];
+
+export const games3 = [
+    {
+        img: "/games3/ordenaMetonimia.png",
+        title: "Ordena 5 oraciones de metonimia!",
+        link: "https://es.educaplay.com/recursos-educativos/15237589-ordena_5_ejemplos_de_metonimia.html"
+    }
 ]
