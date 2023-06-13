@@ -35,4 +35,12 @@ export const games3 = [
         title: "Ordena 5 oraciones de metonimia!",
         link: "https://es.educaplay.com/recursos-educativos/15237589-ordena_5_ejemplos_de_metonimia.html"
     }
+];
+
+export const games4 = [
+    {
+        img: "/games4/gameElMito.png",
+        title: "Juego de El Mito!",
+        link: "https://view.genial.ly/64889bd5639a5d00104fa3e8/interactive-content-el-mito"
+    }
 ]
