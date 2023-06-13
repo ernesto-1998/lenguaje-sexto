@@ -42,5 +42,10 @@ export const games4 = [
         img: "/games4/gameElMito.png",
         title: "Juego de El Mito!",
         link: "https://view.genial.ly/64889bd5639a5d00104fa3e8/interactive-content-el-mito"
+    },
+    {
+        img: "/games4/gamePuntoYComa.png",
+        title: "Juego del Punto y Coma!",
+        link: "https://view.genial.ly/6488b49de669930012381f5b/interactive-content-el-punto-y-coma"
     }
 ]
