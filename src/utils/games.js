@@ -26,6 +26,11 @@ export const games2 = [
         img: "/games2/sopaPalabrasV.png",
         title: "Sopa de Letras! Palabras con vice, viz y vi",
         link: "https://wordwall.net/es/resource/57378502"
+    },
+    {
+        img: "/games2/gameMemoria.png",
+        title: "Memoria | Sustantivos Concretos y Absatractos!",
+        link: "https://view.genial.ly/6488c1cfd6b72b001178c994/interactive-content-sustantivos-concretos-y-abstractoshttps://wordwall.net/es/resource/57378502"
     }
 ];
 
@@ -47,5 +52,10 @@ export const games4 = [
         img: "/games4/gamePuntoYComa.png",
         title: "Juego del Punto y Coma!",
         link: "https://view.genial.ly/6488b49de669930012381f5b/interactive-content-el-punto-y-coma"
+    },
+    {
+        img: "/games4/gameDeterminanteNumeral.png",
+        title: "Quiz de los Determinantes Numerales!",
+        link: "https://view.genial.ly/6488d0459f24660012959e7a/interactive-content-quiz-de-los-determinantes-numerales"
     }
 ]
