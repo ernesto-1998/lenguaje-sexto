@@ -60,6 +60,32 @@ export const games4 = [
     }
 ]
 
+export const games5 = [
+    {
+        img: "/games5/gameOrientacion.png",
+        title: "Tipos de Oraciones!",
+        link: "https://view.genial.ly/64ab75a92767dd0011b11edc/interactive-content-genially-sin-titulo"
+    },
+    {
+        img: "/games5/gameCuestionarios.png",
+        title: "Estructura de los Cuestionarios!",
+        link: "https://wordwall.net/es/resource/58404437/estructura-de-los-cuestionarios"
+    },
+    {
+        img: "/games5/gamePersecucion.png",
+        title: "Laberintos Cuestionarios!",
+        link: "https://wordwall.net/es/resource/58404736/estructura-de-los-cuestionarios"
+    }
+]
+
+export const games6 = [
+    {
+        img: "/games6/gameAdverbios.png",
+        title: "Clasificación de los Adverbios!",
+        link: "https://wordwall.net/es/resource/58404932/clasificaci%c3%b3n-de-los-adverbios"
+    }
+]
+
 export const games7 = [
     {
         img: "/games7/gameB.png",
@@ -75,5 +101,18 @@ export const games7 = [
         img: "/games7/gameCF.png",
         title: "Quizz Ciencia Ficción!",
         link: "https://quizizz.com/admin/quiz/64ab32d7ddcbe1001d88a1dd?source=quiz_share"
+    }
+]
+
+export const games8 = [
+    {
+        img: "/games8/gameTilde.png",
+        title: "Palabras ¿Con o Sin? tilde!",
+        link: "https://wordwall.net/es/resource/58404805"
+    },
+    {
+        img: "/games8/gameTR.png",
+        title: "Escoge el grupo correcto!Televisivos vs Radiofónicos!",
+        link: "https://wordwall.net/es/resource/58405069"
     }
 ]

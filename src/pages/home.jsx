@@ -1,9 +1,9 @@
 import { useContext } from "react";
 import { UnitContext } from "../contexts/UnitContext";
 import { Section } from "../components/section"
-import { games1, games2, games3, games4, games7 } from "../utils/games";
+import { games1, games2, games3, games4, games5, games6, games7, games8 } from "../utils/games";
 import { movies1 } from "../utils/movies";
-import { otros1, otros2, otros3, otros7 } from "../utils/otros";
+import { otros1, otros2, otros3, otros7, otros8 } from "../utils/otros";
 import "./home.css";
 
 export function Home() {
@@ -40,6 +40,20 @@ export function Home() {
             </div>              
         );
     }
+    else if (contextUnit === 5){
+        return (
+            <div className="body-container">
+                <Section content={ games5 } text="Juegos"/>
+            </div>              
+        );
+    }
+    else if (contextUnit === 6){
+        return (
+            <div className="body-container">
+                <Section content={ games6 } text="Juegos"/>
+            </div>              
+        );
+    }
     else if (contextUnit === 7){
         return (
             <div className="body-container">
@@ -48,9 +62,12 @@ export function Home() {
             </div>              
         );
     }
-    else if (contextUnit >= 5 || contextUnit <= 6){
+    else if (contextUnit === 8){
         return (
-            <h1 align="center">Esta unidad aun no está disponible! :(</h1>
+            <div className="body-container">
+                <Section content={ games8 } text="Juegos"/>
+                <Section content={ otros8 } text="Otros"/>
+            </div>              
         );
     }
 }

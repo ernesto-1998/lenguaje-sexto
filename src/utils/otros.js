@@ -29,3 +29,16 @@ export const otros7 = [
         link: "https://drive.google.com/file/d/147UjwUaDUEe8YVCPTukouwmbI76jUR5h/view?usp=drive_link"
     }
 ]
+
+export const otros8 = [
+    {
+        img: "/otros8/ejemploPoema.png",
+        title: "Ejemplo Poema Salvadoreño",
+        link: "https://drive.google.com/file/d/1j1xmyQ3CZksXvZ1d28tSGkKQJ6F-9DQR/view?usp=sharing"
+    },
+    {
+        img: "/otros8/ejemploPublicidad.png",
+        title: "Ejemplo Publicidad de Restaurante",
+        link: "https://drive.google.com/file/d/1B_o0MKVtDIAS8DqZD2zhHWD4Sf3tw-SA/view?usp=sharing"
+    }
+]
