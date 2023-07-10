@@ -39,6 +39,11 @@ export const games3 = [
         img: "/games3/ordenaMetonimia.png",
         title: "Ordena 5 oraciones de metonimia!",
         link: "https://es.educaplay.com/recursos-educativos/15237589-ordena_5_ejemplos_de_metonimia.html"
+    },
+    {
+        img: "/games3/gameEpiteto.png",
+        title: "Orfaniza el Epiteto!",
+        link: "https://wordwall.net/es/resource/58405364"
     }
 ];
 
