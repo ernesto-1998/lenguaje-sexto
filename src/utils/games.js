@@ -42,7 +42,7 @@ export const games3 = [
     },
     {
         img: "/games3/gameEpiteto.png",
-        title: "Orfaniza el Epiteto!",
+        title: "Organiza el Epiteto!",
         link: "https://wordwall.net/es/resource/58405364"
     }
 ];
