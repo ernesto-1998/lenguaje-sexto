@@ -88,6 +88,11 @@ export const games6 = [
         img: "/games6/gameAdverbios.png",
         title: "Clasificación de los Adverbios!",
         link: "https://wordwall.net/es/resource/58404932/clasificaci%c3%b3n-de-los-adverbios"
+    },
+    {
+        img: "/games6/gameAnecdotas.png",
+        title: "Quiz Contemos Anécdotas!",
+        link: "https://view.genial.ly/64ab9a690cab27001920ded9/interactive-content-quiz-cuanto-sabes"
     }
 ]
 
