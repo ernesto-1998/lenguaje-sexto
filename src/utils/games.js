@@ -59,3 +59,21 @@ export const games4 = [
         link: "https://view.genial.ly/6488d0459f24660012959e7a/interactive-content-quiz-de-los-determinantes-numerales"
     }
 ]
+
+export const games7 = [
+    {
+        img: "/games7/gameB.png",
+        title: "Palabras que inicia con la B!",
+        link: "https://wordwall.net/es/resource/58400097"
+    },
+    {
+        img: "/games7/gameZ.png",
+        title: "Escoge la Palabra Correcta!",
+        link: "https://quizizz.com/admin/quiz/64ab3d3c44edb0001d311bd8?source=quiz_share"
+    },
+    {
+        img: "/games7/gameCF.png",
+        title: "Quizz Ciencia Ficción!",
+        link: "https://quizizz.com/admin/quiz/64ab32d7ddcbe1001d88a1dd?source=quiz_share"
+    }
+]

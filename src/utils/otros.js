@@ -21,3 +21,11 @@ export const otros3 = [
         link: "https://drive.google.com/file/d/1Kf02S-6ef0TF1wxksO4q_z2OVQvzPQ8x/view?usp=drive_link"        
     }
 ]
+
+export const otros7 = [
+    {
+        img: "/otros7/CienciaFiccionInfografia.png",
+        title: "Cuento de Ciencia Ficción | Completa el cuento",
+        link: "https://drive.google.com/file/d/147UjwUaDUEe8YVCPTukouwmbI76jUR5h/view?usp=drive_link"
+    }
+]
