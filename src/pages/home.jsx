@@ -2,8 +2,8 @@ import { useContext } from "react";
 import { UnitContext } from "../contexts/UnitContext";
 import { Section } from "../components/section"
 import { games1, games2, games3, games4, games5, games6, games7, games8 } from "../utils/games";
-import { movies1 } from "../utils/movies";
-import { otros1, otros2, otros3, otros7, otros8 } from "../utils/otros";
+import { movies1, movies3 } from "../utils/movies";
+import { otros1, otros2, otros3, otros6, otros7, otros8 } from "../utils/otros";
 import "./home.css";
 
 export function Home() {
@@ -13,7 +13,7 @@ export function Home() {
             <div className="body-container">
                 <Section content={ games1 } text="Juegos"/>
                 <Section content={ movies1 } text="Vídeos"/>
-                <Section content={ otros1 } text="Otros"/>
+                <Section content={ otros1 } text="Infografías"/>
             </div>
         );
     } 
@@ -21,7 +21,7 @@ export function Home() {
         return (
             <div className="body-container">
                 <Section content={ games2 } text="Juegos"/>
-                <Section content={ otros2 } text="Otros"/>
+                <Section content={ otros2 } text="Infografías"/>
             </div>   
         );
     } 
@@ -29,7 +29,8 @@ export function Home() {
         return (
             <div className="body-container">
                 <Section content={ games3 } text="Juegos"/>
-                <Section content={ otros3 } text="Otros"/>
+                <Section content={ movies3 } text="Vídeos"/>
+                <Section content={ otros3 } text="Actividades"/>
             </div>   
         );
     } 
@@ -51,14 +52,15 @@ export function Home() {
         return (
             <div className="body-container">
                 <Section content={ games6 } text="Juegos"/>
+                <Section content={ otros6 } text="Infografías"/>
             </div>              
         );
     }
     else if (contextUnit === 7){
         return (
             <div className="body-container">
-                <Section content={ games7 } text="Actividades"/>
-                <Section content={ otros7 } text="Otros"/>
+                <Section content={ games7 } text="Juegos"/>
+                <Section content={ otros7 } text="Actividades"/>
             </div>              
         );
     }
@@ -66,7 +68,7 @@ export function Home() {
         return (
             <div className="body-container">
                 <Section content={ games8 } text="Juegos"/>
-                <Section content={ otros8 } text="Otros"/>
+                <Section content={ otros8 } text="Ejemplos"/>
             </div>              
         );
     }

@@ -22,6 +22,14 @@ export const otros3 = [
     }
 ]
 
+export const otros6 = [
+    {
+        img: "/otros6/infografiaAnecdota.png",
+        title: "Infografía La Anecdota!",
+        link: "https://drive.google.com/file/d/16xtXbhZFx2wIlWxGnfhnHSSdYF-YvfkP/view?usp=sharing"        
+    }
+]
+
 export const otros7 = [
     {
         img: "/otros7/CienciaFiccionInfografia.png",

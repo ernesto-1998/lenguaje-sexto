@@ -14,3 +14,11 @@ export const movies1 = [
 export const movies2 = [
 
 ]
+
+export const movies3 = [
+    {
+        img: "/movies3/movieDebateForo.png",
+        title: "El Debate y El Foro",
+        link: "https://www.youtube.com/watch?v=lNbbDErCthc"
+    }
+]
