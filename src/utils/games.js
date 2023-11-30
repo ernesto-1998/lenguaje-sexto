@@ -30,7 +30,7 @@ export const games2 = [
     {
         img: "/games2/gameMemoria.png",
         title: "Memoria | Sustantivos Concretos y Absatractos!",
-        link: "https://view.genial.ly/6488c1cfd6b72b001178c994/interactive-content-sustantivos-concretos-y-abstractoshttps://wordwall.net/es/resource/57378502"
+        link: "https://view.genial.ly/6488c1cfd6b72b001178c994/interactive-content-sustantivos-concretos-y-abstractos"
     }
 ];
 
